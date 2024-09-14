@@ -1,0 +1,225 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: #7CF5FF;
+}
+
+.hidden{
+    display: none;
+}
+
+/* Stopwatch */
+
+/* #timer {
+    width: 290px;
+    font-size: 50px;
+    background-color: #7CF5FF;
+    color: black;
+    padding: 25px;
+  } */
+
+/* FIRST DIV */
+.start{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 50px;
+    transform: translate(-50%, -50%);  /* Adjusts the position to be truly centered */
+    background-color: #FF9874;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* title tag */
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #6439FF;
+}
+
+/* Instructions */
+ul{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+#list-heading{
+    font-weight: 700;
+    text-decoration: underline;
+    color: #4F75FF;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+li:hover{
+    color: #337CCF;
+}
+
+/* Start Button */
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start-btn{
+    font-size: 30px;
+    padding: 0 20px;
+    outline: none;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    margin: 20px 0px;
+    background-color: #F05A7E;
+    color: #125B9A;
+}
+
+/* Game Section */
+
+.game{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 50px;
+    transform: translate(-50%, -50%);  /* Adjusts the position to be truly centered */
+    background-color: #FF9874;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#word{
+    text-align: center;
+    margin: 0px 10px 20px 10px;
+}
+
+/* Input Div */
+
+/* <div class="input">
+
+    <input type="text" id="guess">
+
+</div> */
+
+.input {
+    width: 300px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]::placeholder {
+    color: #999;
+}
+
+input[type="text"]:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.4);
+}
+#guess{
+    width: 40vw;
+    max-height: 6rem;
+}
+
+/* 
+<div class="btn">
+
+    <button id="guess-btn">Submit</button>
+    <button id="reset-btn">Reset</button>
+
+</div> 
+*/
+
+#guess-btn, #reset-btn{
+    font-size: 20px;
+    padding: 0 20px;
+    outline: none;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    margin: 20px 0px;
+    background-color: #F05A7E;
+    color: #125B9A;
+    margin: 30px 10px 0px 10px;
+}
+
+/* Game Ending Message */
+
+/* 
+<div class="end hidden">
+
+    <h1 id="end-msg">Game Ended</h1>
+    <div class="btn">
+        <button id="end-btn">Restart</button>
+    </div>
+
+</div>
+*/
+
+.end{
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 50px;
+    transform: translate(-50%, -50%);  /* Adjusts the position to be truly centered */
+    background-color: #FF9874;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    animation: float 3s ease-in-out infinite;   
+}
+
+#end-btn{
+    font-size: 30px;
+    padding: 0 20px;
+    outline: none;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    margin: 20px 0px;
+    background-color: #F5004F;
+    color: #125B9A;
+    
+}
+
+/* Animation */
+@keyframes float {
+    0% {
+        transform: translate(-50%, -50%) translateY(0);  /* Original position */
+    }
+    50% {
+        transform: translate(-50%, -50%) translateY(-20px);  /* Float upwards */
+    }
+    100% {
+        transform: translate(-50%, -50%) translateY(0);  /* Return to original position */
+    }
+}

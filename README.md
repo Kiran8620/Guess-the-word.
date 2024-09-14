@@ -38,6 +38,22 @@ Correct guesses add to your score, while incorrect ones deduct a life.
 Once you're out of lives, the game ends with your final score.
 Reset Anytime:
 
+---
+
+##🎨 Game UI
+Scrambled Word Display: Shows the jumbled word for you to unscramble.
+Score Display: Tracks and updates your score in real-time.
+Input Field & Guess Button: Enter and submit your guesses here.
+Lives Counter: Displays remaining attempts for the current word.
+Reset Button: Quickly reset the game and start over.
+
+---
+
+##💻 Technologies Used
+HTML5: Structuring the web page.
+CSS3: Styling the layout, buttons, and display elements.
+JavaScript (ES6): Implementing game logic, word randomization, and score tracking.
+
 Want to try again? Just click "Reset" to restart the game.
 ---
 

@@ -1,8 +1,5 @@
 # 🧩 Word Scramble Game
 
-![Word Scramble Game Banner](https://user-images.githubusercontent.com/Capture.PNG)
-<img src= "E:\AAJ Se Code\Java Script\Guessing Game\Capture.png" alt="Intro">
-
 ## 🎮 Overview
 
 **Word Scramble Game** is a fun and educational game where players attempt to unscramble a series of words within a limited number of guesses. With two difficulty levels — **Basic** and **Hard** — the game offers a challenge for players of all skill levels.

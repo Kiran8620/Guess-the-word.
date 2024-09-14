@@ -1,6 +1,6 @@
 # 🧩 Word Scramble Game
 
-![Word Scramble Game Banner](https://user-images.githubusercontent.com/your-image.png)
+![Word Scramble Game Banner](https://user-images.githubusercontent.com/Capture.PNG)
 
 ## 🎮 Overview
 

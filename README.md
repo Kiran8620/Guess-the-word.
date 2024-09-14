@@ -43,14 +43,23 @@ Reset Anytime:
 ## 🎨 Game UI
 
 Scrambled Word Display: 
+
 Shows the jumbled word for you to unscramble.
+
 Score Display: 
+
 Tracks and updates your score in real-time.
+
 Input Field & Guess Button: 
+
 Enter and submit your guesses here.
+
 Lives Counter: 
+
 Displays remaining attempts for the current word.
+
 Reset Button: 
+
 Quickly reset the game and start over.
 
 ---

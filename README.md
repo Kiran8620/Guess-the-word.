@@ -69,6 +69,11 @@ Quickly reset the game and start over.
 
 **JavaScript (ES6):** Implementing game logic, word randomization, and score tracking.
 
+---
+
+## Answers
+If you are not able to solve the answer, check the console tab by inspecting the page.
+
 Want to try again? Just click "Reset" to restart the game.
 ---
 

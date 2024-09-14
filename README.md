@@ -46,7 +46,7 @@
 
 ---
 
-💻 Technologies Used
+##💻 Technologies Used
     -HTML5: Structuring the web page.
     -CSS3: Styling the layout, buttons, and display elements.
     -JavaScript (ES6): Implementing game logic, word randomization, and score tracking.

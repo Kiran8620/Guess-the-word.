@@ -1,6 +1,7 @@
 # 🧩 Word Scramble Game
 
 ![Word Scramble Game Banner](https://user-images.githubusercontent.com/Capture.PNG)
+<img src= "E:\AAJ Se Code\Java Script\Guessing Game\Capture.png" alt="Intro">
 
 ## 🎮 Overview
 

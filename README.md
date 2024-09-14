@@ -25,32 +25,35 @@
 ---
 
 ## 🕹️ How to Play
-1) Start the Game:
-    - Hit the "Start" button to begin. You'll see a scrambled word on the screen.
-    - 
-2) Guess the Word:
-    -Type your guess into the input field and hit "Guess".
-    -You have 2 lives per word, so use them wisely!
-   
-3) Win or Lose:
-    -Correct guesses add to your score, while incorrect ones deduct a life.
+Start the Game:
 
+Hit the "Start" button to begin. You'll see a scrambled word on the screen.
+Guess the Word:
+
+Type your guess into the input field and hit "Guess".
+You have 2 lives per word, so use them wisely!
+Win or Lose:
+
+Correct guesses add to your score, while incorrect ones deduct a life.
+Once you're out of lives, the game ends with your final score.
+Reset Anytime:
+
+Want to try again? Just click "Reset" to restart the game.
 ---
 
 ##🎨 Game UI
-    -Scrambled Word Display: Shows the jumbled word for you to unscramble.
-    -Score Display: Tracks and updates your score in real-time.
-    -Input Field & Guess Button: Enter and submit your guesses here.
-    -Lives Counter: Displays remaining attempts for the current word.
-    -Reset Button: Quickly reset the game and start over.
+Scrambled Word Display: Shows the jumbled word for you to unscramble.
+Score Display: Tracks and updates your score in real-time.
+Input Field & Guess Button: Enter and submit your guesses here.
+Lives Counter: Displays remaining attempts for the current word.
+Reset Button: Quickly reset the game and start over.
 
 ---
 
 ##💻 Technologies Used
-    -HTML5: Structuring the web page.
-    -CSS3: Styling the layout, buttons, and display elements.
-    -JavaScript (ES6): Implementing game logic, word randomization, and score tracking.
-
+HTML5: Structuring the web page.
+CSS3: Styling the layout, buttons, and display elements.
+JavaScript (ES6): Implementing game logic, word randomization, and score tracking.
 ## 🛠️ Project Structure
 
 ```bash
